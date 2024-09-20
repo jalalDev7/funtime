@@ -1,4 +1,3 @@
-import Link from "next/link";
 import React from "react";
 import MaxWidthWrapper from "./MaxWidthWrapper";
 import { categories } from "@/constants/constants";
