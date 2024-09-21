@@ -13,7 +13,7 @@ const HomeFooter = () => {
     <footer className="flex flex-col w-full bg-accent">
       <MaxWidthWrapper className="mt-8 ">
         <div className="flex flex-col w-full max-w-7xl mx-auto">
-          <h1 className="text-xl font-semibold text-primary">
+          <h1 className="text-2xl font-semibold text-primary">
             Find your next event, and have fun
           </h1>
           <div className="grid grid-cols-4 w-full gap-4 mt-4">
@@ -28,6 +28,7 @@ const HomeFooter = () => {
                     width={50}
                     height={50}
                     alt="category icon"
+                    className="opacity-80"
                   />
                 </div>
                 <div className="flex flex-col w-full">
