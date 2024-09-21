@@ -14,15 +14,15 @@ import HomeDateRangePicker from "./HomeDateRangePicker";
 
 const HomeHeaderSearch = () => {
   return (
-    <div className="flex flex-row w-[60%] mx-auto border border-muted-foreground/40 rounded-full items-center justify-between shadow-md">
+    <div className="flex flex-row max-w-5xl mx-auto border border-muted-foreground/40 rounded-full items-center justify-between shadow-md">
       <div className="flex items-center divide-x divide-accent">
         <Input
           type="text"
-          className="pl-8 border-none rounded-full text-2xl h-16 hover:bg-accent min-w-[300px]"
+          className="pl-8 border-none rounded-full text-xl h-16 hover:bg-accent min-w-[300px]"
           placeholder="Search by keyword"
         />
         <Select>
-          <SelectTrigger className=" border-none text-xl font-base focus-visible:ring-0 hover:bg-accent rounded-full h-16 px-6 text-muted-foreground">
+          <SelectTrigger className=" border-none text-lg font-base focus-visible:ring-0 hover:bg-accent rounded-full h-16 px-6 text-muted-foreground">
             <SelectValue placeholder="City" />
           </SelectTrigger>
           <SelectContent>
@@ -35,7 +35,7 @@ const HomeHeaderSearch = () => {
         </Select>
         <HomeDateRangePicker />
         <Select>
-          <SelectTrigger className=" border-none text-xl font-base focus-visible:ring-0 hover:bg-accent rounded-full h-16 px-6 text-muted-foreground">
+          <SelectTrigger className=" border-none text-lg font-base focus-visible:ring-0 hover:bg-accent rounded-full h-16 px-6 text-muted-foreground">
             <SelectValue placeholder="Category" />
           </SelectTrigger>
           <SelectContent>

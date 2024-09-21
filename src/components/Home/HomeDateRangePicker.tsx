@@ -40,7 +40,7 @@ const HomeDateRangePicker = (props: { default?: DateRange }) => {
                 format(date.from, "LLL dd, y")
               )
             ) : (
-              <span className="text-xl font-medium">Pick a period</span>
+              <span className="text-lg font-medium">Pick a period</span>
             )}
           </Button>
         </PopoverTrigger>

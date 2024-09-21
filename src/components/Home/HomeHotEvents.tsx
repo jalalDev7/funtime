@@ -13,8 +13,8 @@ const HomeHotEvents = () => {
               src="/testImage.webp"
               alt="event image"
               width={400}
-              height={400}
-              className=" w-full object-cover rounded-lg"
+              height={600}
+              className=" rounded-lg"
             />
             <h2 className="text-lg font-semibold mt-2">Sky diving</h2>
             <h3 className="text-sm font-medium text-muted-foreground">
@@ -23,7 +23,7 @@ const HomeHotEvents = () => {
           </div>
           <div className="flex flex-col w-full rounded-lg">
             <Image
-              src="/testImage.webp"
+              src="/testImage2.webp"
               alt="event image"
               width={400}
               height={600}
@@ -36,7 +36,7 @@ const HomeHotEvents = () => {
           </div>
           <div className="flex flex-col w-full rounded-lg">
             <Image
-              src="/testImage.webp"
+              src="/testImage3.webp"
               alt="event image"
               width={400}
               height={600}
@@ -49,7 +49,7 @@ const HomeHotEvents = () => {
           </div>
           <div className="flex flex-col w-full rounded-lg">
             <Image
-              src="/testImage.webp"
+              src="/testImage4.webp"
               alt="event image"
               width={400}
               height={600}
