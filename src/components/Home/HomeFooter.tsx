@@ -4,7 +4,7 @@ import { categories } from "@/constants/constants";
 import Image from "next/image";
 import Link from "next/link";
 import { TbWorld } from "react-icons/tb";
-import { FaFacebook } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaSquareXTwitter } from "react-icons/fa6";
 
@@ -13,7 +13,7 @@ const HomeFooter = () => {
     <footer className="flex flex-col w-full bg-accent">
       <MaxWidthWrapper className="mt-8 ">
         <div className="flex flex-col w-full max-w-7xl mx-auto">
-          <h1 className="text-2xl font-semibold text-primary">
+          <h1 className="text-lg md:text-2xl font-semibold text-primary">
             Find your next event, and have fun
           </h1>
           <div className="grid grid-cols-4 w-full gap-4 mt-4">
@@ -28,17 +28,21 @@ const HomeFooter = () => {
                     width={50}
                     height={50}
                     alt="category icon"
-                    className="opacity-80"
+                    className="opacity-80 hidden md:flex"
                   />
                 </div>
                 <div className="flex flex-col w-full">
-                  <h2 className="text-lg font-medium">{cat.categoryName}</h2>
-                  <h3 className="text-xs text-pretty">{cat.description}</h3>
+                  <h2 className="text-sm md:text-lg font-medium">
+                    {cat.categoryName}
+                  </h2>
+                  <h3 className="text-xs text-pretty hidden md:flex">
+                    {cat.description}
+                  </h3>
                 </div>
               </div>
             ))}
           </div>
-          <div className="flex flex-row w-full items-center justify-between mt-8 border-t border-muted-foreground/50 p-2">
+          <div className="flex flex-col md:flex-row w-full items-center justify-between mt-8 border-t border-muted-foreground/50 p-2">
             <div className="flex flex-row w-full gap-2">
               <h1>© 2024 Funtime.ma</h1>
               <Link href="/">Home</Link>
@@ -50,9 +54,9 @@ const HomeFooter = () => {
               <TbWorld className="size-4" />
               <h3>English</h3>
               <h3>MAD</h3>
-              <FaFacebook className="size-6" />
-              <RiInstagramFill className="size-6" />
-              <FaSquareXTwitter className="size-6" />
+              <FaFacebookSquare className="size-5" />
+              <RiInstagramFill className="size-5" />
+              <FaSquareXTwitter className="size-5" />
             </div>
           </div>
         </div>

@@ -4,7 +4,7 @@ import HomeFooter from "@/components/Home/HomeFooter";
 import HomeHeader from "@/components/Home/HomeHeader";
 import HomeHotEvents from "@/components/Home/HomeHotEvents";
 
-export default function Home() {
+export default async function Home() {
   return (
     <main>
       <HomeHeader />

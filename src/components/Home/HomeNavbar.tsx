@@ -3,7 +3,7 @@ import React from "react";
 
 const HomeNavbar = () => {
   return (
-    <div className="flex flex-row w-full items-center justify-center gap-4 inset-0">
+    <div className="hidden md:flex flex-row w-full items-center justify-center gap-4 inset-0">
       <Link href="/" className="font-semibold">
         Home
       </Link>
