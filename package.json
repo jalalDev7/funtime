@@ -6,11 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@kinde-oss/kinde-auth-nextjs": "^2.3.8",
-    "@prisma/client": "^5.19.1",
+    "@prisma/client": "^5.20.0",
     "@radix-ui/react-popover": "^1.1.1",
     "@radix-ui/react-select": "^2.1.1",
     "@radix-ui/react-slot": "^1.1.0",
