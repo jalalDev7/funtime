@@ -14,7 +14,7 @@ import HomeDateRangePicker from "./HomeDateRangePicker";
 
 const HomeHeaderSearch = () => {
   return (
-    <div className="hidden md:flex flex-row max-w-5xl mx-auto border border-muted-foreground/40 rounded-full items-center justify-between shadow-md">
+    <div className="hidden md:flex flex-row max-w-5xl mx-auto border border-muted-foreground/40 rounded-full items-center justify-between shadow-md dark:bg-secondary">
       <div className="flex items-center divide-x divide-accent">
         <Input
           type="text"

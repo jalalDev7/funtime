@@ -3,8 +3,8 @@ import React from "react";
 
 const HomeNavbar = () => {
   return (
-    <div className="hidden md:flex flex-row w-full items-center justify-center gap-4 inset-0">
-      <Link href="/" className="font-semibold">
+    <div className="hidden md:flex flex-row w-full items-center justify-center gap-4 inset-0 ">
+      <Link href="/" className="font-semibold ">
         Home
       </Link>
       <Link href="/">Top events</Link>

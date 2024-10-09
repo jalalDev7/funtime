@@ -6,7 +6,7 @@ import HomeHotEvents from "@/components/Home/HomeHotEvents";
 
 export default async function Home() {
   return (
-    <main>
+    <main className="dark:bg-primary dark:text-primary-foreground">
       <HomeHeader />
       <HomeCategories />
       <HomeHotEvents />

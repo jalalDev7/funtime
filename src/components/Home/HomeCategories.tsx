@@ -10,7 +10,7 @@ const HomeCategories = () => {
         {categories.map((cat) => (
           <div
             key={cat.id}
-            className="flex flex-col items-center justify-center gap-1"
+            className="flex flex-col items-center justify-center gap-1 dark:bg-secondary rounded-md py-1 px-2"
           >
             <Image
               src={cat.icon}
